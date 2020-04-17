@@ -13,6 +13,11 @@
 		C5F25BFB2449948800BCC23D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F25BFA2449948800BCC23D /* main.m */; };
 		C5F25C062449948A00BCC23D /* SelpicMSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F25C052449948A00BCC23D /* SelpicMSDKDemoTests.m */; };
 		C5F25C112449948A00BCC23D /* SelpicMSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F25C102449948A00BCC23D /* SelpicMSDKDemoUITests.m */; };
+		C5F25C23244994BC00BCC23D /* mainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F25C20244994BC00BCC23D /* mainViewController.xib */; };
+		C5F25C24244994BC00BCC23D /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F25C21244994BC00BCC23D /* mainViewController.m */; };
+		C5F25C26244995D400BCC23D /* SelpicM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F25C25244995D400BCC23D /* SelpicM.framework */; };
+		C5F25C282449973400BCC23D /* xion-04.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F25C272449973400BCC23D /* xion-04.png */; };
+		C5F25C2C2449A9D000BCC23D /* SDK Instructions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C5F25C2B2449A9D000BCC23D /* SDK Instructions.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,12 @@
 		C5F25C0C2449948A00BCC23D /* SelpicMSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelpicMSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F25C102449948A00BCC23D /* SelpicMSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelpicMSDKDemoUITests.m; sourceTree = "<group>"; };
 		C5F25C122449948A00BCC23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F25C20244994BC00BCC23D /* mainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainViewController.xib; sourceTree = "<group>"; };
+		C5F25C21244994BC00BCC23D /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		C5F25C22244994BC00BCC23D /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		C5F25C25244995D400BCC23D /* SelpicM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SelpicM.framework; sourceTree = "<group>"; };
+		C5F25C272449973400BCC23D /* xion-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xion-04.png"; sourceTree = "<group>"; };
+		C5F25C2B2449A9D000BCC23D /* SDK Instructions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SDK Instructions.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F25C26244995D400BCC23D /* SelpicM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +109,14 @@
 		C5F25BF02449947C00BCC23D /* SelpicMSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C5F25C2B2449A9D000BCC23D /* SDK Instructions.pdf */,
+				C5F25C272449973400BCC23D /* xion-04.png */,
+				C5F25C25244995D400BCC23D /* SelpicM.framework */,
 				C5F25BF12449947C00BCC23D /* AppDelegate.h */,
 				C5F25BF22449947C00BCC23D /* AppDelegate.m */,
+				C5F25C22244994BC00BCC23D /* mainViewController.h */,
+				C5F25C21244994BC00BCC23D /* mainViewController.m */,
+				C5F25C20244994BC00BCC23D /* mainViewController.xib */,
 				C5F25BF42449948800BCC23D /* Assets.xcassets */,
 				C5F25BF62449948800BCC23D /* MainMenu.xib */,
 				C5F25BF92449948800BCC23D /* Info.plist */,
@@ -230,7 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F25BF52449948800BCC23D /* Assets.xcassets in Resources */,
+				C5F25C2C2449A9D000BCC23D /* SDK Instructions.pdf in Resources */,
+				C5F25C282449973400BCC23D /* xion-04.png in Resources */,
 				C5F25BF82449948800BCC23D /* MainMenu.xib in Resources */,
+				C5F25C23244994BC00BCC23D /* mainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F25C24244994BC00BCC23D /* mainViewController.m in Sources */,
 				C5F25BFB2449948800BCC23D /* main.m in Sources */,
 				C5F25BF32449947C00BCC23D /* AppDelegate.m in Sources */,
 			);
@@ -421,6 +443,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4L2FX8U5MX;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SelpicMSDKDemo",
+				);
 				INFOPLIST_FILE = SelpicMSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +466,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4L2FX8U5MX;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SelpicMSDKDemo",
+				);
 				INFOPLIST_FILE = SelpicMSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
