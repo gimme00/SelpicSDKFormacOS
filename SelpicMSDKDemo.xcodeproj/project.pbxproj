@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5F25BF32449947C00BCC23D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F25BF22449947C00BCC23D /* AppDelegate.m */; };
+		C5F25BF52449948800BCC23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F25BF42449948800BCC23D /* Assets.xcassets */; };
+		C5F25BF82449948800BCC23D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F25BF62449948800BCC23D /* MainMenu.xib */; };
+		C5F25BFB2449948800BCC23D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F25BFA2449948800BCC23D /* main.m */; };
+		C5F25C062449948A00BCC23D /* SelpicMSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F25C052449948A00BCC23D /* SelpicMSDKDemoTests.m */; };
+		C5F25C112449948A00BCC23D /* SelpicMSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F25C102449948A00BCC23D /* SelpicMSDKDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5F25C022449948A00BCC23D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F25BE62449947C00BCC23D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F25BED2449947C00BCC23D;
+			remoteInfo = SelpicMSDKDemo;
+		};
+		C5F25C0D2449948A00BCC23D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F25BE62449947C00BCC23D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F25BED2449947C00BCC23D;
+			remoteInfo = SelpicMSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5F25BEE2449947C00BCC23D /* SelpicMSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelpicMSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F25BF12449947C00BCC23D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5F25BF22449947C00BCC23D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5F25BF42449948800BCC23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5F25BF72449948800BCC23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C5F25BF92449948800BCC23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F25BFA2449948800BCC23D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5F25BFC2449948800BCC23D /* SelpicMSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SelpicMSDKDemo.entitlements; sourceTree = "<group>"; };
+		C5F25C012449948A00BCC23D /* SelpicMSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelpicMSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F25C052449948A00BCC23D /* SelpicMSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelpicMSDKDemoTests.m; sourceTree = "<group>"; };
+		C5F25C072449948A00BCC23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F25C0C2449948A00BCC23D /* SelpicMSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelpicMSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F25C102449948A00BCC23D /* SelpicMSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelpicMSDKDemoUITests.m; sourceTree = "<group>"; };
+		C5F25C122449948A00BCC23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5F25BEB2449947C00BCC23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F25BFE2449948A00BCC23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F25C092449948A00BCC23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5F25BE52449947C00BCC23D = {
+			isa = PBXGroup;
+			children = (
+				C5F25BF02449947C00BCC23D /* SelpicMSDKDemo */,
+				C5F25C042449948A00BCC23D /* SelpicMSDKDemoTests */,
+				C5F25C0F2449948A00BCC23D /* SelpicMSDKDemoUITests */,
+				C5F25BEF2449947C00BCC23D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5F25BEF2449947C00BCC23D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5F25BEE2449947C00BCC23D /* SelpicMSDKDemo.app */,
+				C5F25C012449948A00BCC23D /* SelpicMSDKDemoTests.xctest */,
+				C5F25C0C2449948A00BCC23D /* SelpicMSDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5F25BF02449947C00BCC23D /* SelpicMSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C5F25BF12449947C00BCC23D /* AppDelegate.h */,
+				C5F25BF22449947C00BCC23D /* AppDelegate.m */,
+				C5F25BF42449948800BCC23D /* Assets.xcassets */,
+				C5F25BF62449948800BCC23D /* MainMenu.xib */,
+				C5F25BF92449948800BCC23D /* Info.plist */,
+				C5F25BFA2449948800BCC23D /* main.m */,
+				C5F25BFC2449948800BCC23D /* SelpicMSDKDemo.entitlements */,
+			);
+			path = SelpicMSDKDemo;
+			sourceTree = "<group>";
+		};
+		C5F25C042449948A00BCC23D /* SelpicMSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5F25C052449948A00BCC23D /* SelpicMSDKDemoTests.m */,
+				C5F25C072449948A00BCC23D /* Info.plist */,
+			);
+			path = SelpicMSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		C5F25C0F2449948A00BCC23D /* SelpicMSDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5F25C102449948A00BCC23D /* SelpicMSDKDemoUITests.m */,
+				C5F25C122449948A00BCC23D /* Info.plist */,
+			);
+			path = SelpicMSDKDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5F25BED2449947C00BCC23D /* SelpicMSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F25C152449948A00BCC23D /* Build configuration list for PBXNativeTarget "SelpicMSDKDemo" */;
+			buildPhases = (
+				C5F25BEA2449947C00BCC23D /* Sources */,
+				C5F25BEB2449947C00BCC23D /* Frameworks */,
+				C5F25BEC2449947C00BCC23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelpicMSDKDemo;
+			productName = SelpicMSDKDemo;
+			productReference = C5F25BEE2449947C00BCC23D /* SelpicMSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5F25C002449948A00BCC23D /* SelpicMSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F25C182449948A00BCC23D /* Build configuration list for PBXNativeTarget "SelpicMSDKDemoTests" */;
+			buildPhases = (
+				C5F25BFD2449948A00BCC23D /* Sources */,
+				C5F25BFE2449948A00BCC23D /* Frameworks */,
+				C5F25BFF2449948A00BCC23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F25C032449948A00BCC23D /* PBXTargetDependency */,
+			);
+			name = SelpicMSDKDemoTests;
+			productName = SelpicMSDKDemoTests;
+			productReference = C5F25C012449948A00BCC23D /* SelpicMSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5F25C0B2449948A00BCC23D /* SelpicMSDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F25C1B2449948A00BCC23D /* Build configuration list for PBXNativeTarget "SelpicMSDKDemoUITests" */;
+			buildPhases = (
+				C5F25C082449948A00BCC23D /* Sources */,
+				C5F25C092449948A00BCC23D /* Frameworks */,
+				C5F25C0A2449948A00BCC23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F25C0E2449948A00BCC23D /* PBXTargetDependency */,
+			);
+			name = SelpicMSDKDemoUITests;
+			productName = SelpicMSDKDemoUITests;
+			productReference = C5F25C0C2449948A00BCC23D /* SelpicMSDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5F25BE62449947C00BCC23D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = xdh;
+				TargetAttributes = {
+					C5F25BED2449947C00BCC23D = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					C5F25C002449948A00BCC23D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = C5F25BED2449947C00BCC23D;
+					};
+					C5F25C0B2449948A00BCC23D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = C5F25BED2449947C00BCC23D;
+					};
+				};
+			};
+			buildConfigurationList = C5F25BE92449947C00BCC23D /* Build configuration list for PBXProject "SelpicMSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5F25BE52449947C00BCC23D;
+			productRefGroup = C5F25BEF2449947C00BCC23D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5F25BED2449947C00BCC23D /* SelpicMSDKDemo */,
+				C5F25C002449948A00BCC23D /* SelpicMSDKDemoTests */,
+				C5F25C0B2449948A00BCC23D /* SelpicMSDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5F25BEC2449947C00BCC23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F25BF52449948800BCC23D /* Assets.xcassets in Resources */,
+				C5F25BF82449948800BCC23D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F25BFF2449948A00BCC23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F25C0A2449948A00BCC23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5F25BEA2449947C00BCC23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F25BFB2449948800BCC23D /* main.m in Sources */,
+				C5F25BF32449947C00BCC23D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F25BFD2449948A00BCC23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F25C062449948A00BCC23D /* SelpicMSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F25C082449948A00BCC23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F25C112449948A00BCC23D /* SelpicMSDKDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5F25C032449948A00BCC23D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F25BED2449947C00BCC23D /* SelpicMSDKDemo */;
+			targetProxy = C5F25C022449948A00BCC23D /* PBXContainerItemProxy */;
+		};
+		C5F25C0E2449948A00BCC23D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F25BED2449947C00BCC23D /* SelpicMSDKDemo */;
+			targetProxy = C5F25C0D2449948A00BCC23D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5F25BF62449948800BCC23D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F25BF72449948800BCC23D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5F25C132449948A00BCC23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C5F25C142449948A00BCC23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C5F25C162449948A00BCC23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SelpicMSDKDemo/SelpicMSDKDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4L2FX8U5MX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SelpicMSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guangxing.SelpicMSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5F25C172449948A00BCC23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SelpicMSDKDemo/SelpicMSDKDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4L2FX8U5MX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SelpicMSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guangxing.SelpicMSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5F25C192449948A00BCC23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4L2FX8U5MX;
+				INFOPLIST_FILE = SelpicMSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = guangxing.SelpicMSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelpicMSDKDemo.app/Contents/MacOS/SelpicMSDKDemo";
+			};
+			name = Debug;
+		};
+		C5F25C1A2449948A00BCC23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4L2FX8U5MX;
+				INFOPLIST_FILE = SelpicMSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = guangxing.SelpicMSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelpicMSDKDemo.app/Contents/MacOS/SelpicMSDKDemo";
+			};
+			name = Release;
+		};
+		C5F25C1C2449948A00BCC23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4L2FX8U5MX;
+				INFOPLIST_FILE = SelpicMSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guangxing.SelpicMSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SelpicMSDKDemo;
+			};
+			name = Debug;
+		};
+		C5F25C1D2449948A00BCC23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4L2FX8U5MX;
+				INFOPLIST_FILE = SelpicMSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guangxing.SelpicMSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SelpicMSDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5F25BE92449947C00BCC23D /* Build configuration list for PBXProject "SelpicMSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F25C132449948A00BCC23D /* Debug */,
+				C5F25C142449948A00BCC23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F25C152449948A00BCC23D /* Build configuration list for PBXNativeTarget "SelpicMSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F25C162449948A00BCC23D /* Debug */,
+				C5F25C172449948A00BCC23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F25C182449948A00BCC23D /* Build configuration list for PBXNativeTarget "SelpicMSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F25C192449948A00BCC23D /* Debug */,
+				C5F25C1A2449948A00BCC23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F25C1B2449948A00BCC23D /* Build configuration list for PBXNativeTarget "SelpicMSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F25C1C2449948A00BCC23D /* Debug */,
+				C5F25C1D2449948A00BCC23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5F25BE62449947C00BCC23D /* Project object */;
+}
